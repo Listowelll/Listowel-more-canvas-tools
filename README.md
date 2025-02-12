@@ -12,8 +12,9 @@ I develop on Chrome. I make no claims that it will work on anything else. It pro
 # Installation
 
 1. Install [TamperMonkey extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) for Chrome.
-2. Visit the install link for the [More Canvas Tools userscript](https://ud-cis-teaching.github.io/more-canvas-tools/more-canvas-tools.user.js).
-3. You should be prompted to install the extension, which you should do.
+  *  Don't forget to [enable Developer Mode on Chrome-based browsers](https://www.tampermonkey.net/faq.php?locale=en#Q209).
+3. Visit the install link for the [More Canvas Tools userscript](https://ud-cis-teaching.github.io/more-canvas-tools/more-canvas-tools.user.js).
+4. You should be prompted to install the extension, which you should do.
 
 # Features
 
