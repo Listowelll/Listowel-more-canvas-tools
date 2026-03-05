@@ -127,6 +127,7 @@ Finally, the `Preview and Publish Dates to Course` button will take the contents
 
 This feature runs on each course's `Assignments` page and visually highlights assignments that have grader feedback for the current student.
 
+
 How to use:
 
 1. Open any course in Canvas.
@@ -138,6 +139,10 @@ Notes:
 
 - This feature only changes page visuals and adds navigation links.
 - It does not modify submissions, comments, or grades.
+<img width="1440" height="900" alt="Glow Shot 1" src="https://github.com/user-attachments/assets/30f6cb81-fdd5-4269-8f3d-58b1ceec2c5c" />
+
+<img width="308" height="702" alt="Glow Shot 2" src="https://github.com/user-attachments/assets/d643227a-6035-471e-9a37-f64ff5df729c" />
+
 
 ## Development Environment Installation
 
