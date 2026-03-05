@@ -16,7 +16,21 @@ const describeFailure = errors.failureDescriber({
 userscripter.run({
     id: U.id,
     name: U.name,
-    initialAction: () => log.log(`${U.name} ${U.version} - Hello world!`),
+    initialAction: () => {
+        console.log("ASSIGNMENT API CALL INITIATED (via Fetch)");
+        fetch("/api/v1/users/self")
+            .then(response => {
+                if (!response.ok) throw new Error("Network response was not ok");
+                return response.json();
+            })
+            .then(data => {
+                console.log("SUCCESS! User Profile Data Found:");
+                console.log(data); 
+            })
+            .catch(error => {
+                console.error("Fetch Error:", error);
+            });
+    },
     stylesheets: STYLESHEETS,
     operationsPlan: {
         operations: OPERATIONS,

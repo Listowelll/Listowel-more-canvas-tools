@@ -6,7 +6,7 @@
     "build-userscript": "webpack --config .userscripter-temp/webpack.config.js",
     "build": "npm run clean && npm run build-webpack-config && npm run build-userscript && npm run clean",
     "watch-userscript": "webpack --config .userscripter-temp/webpack.config.js --watch",
-    "watch": "npm run clean && npm run build-webpack-config && npm run watch-userscript && npm run clean",
+    "watch": "export NODE_OPTIONS=--openssl-legacy-provider && npm run clean && npm run build-webpack-config && npm run watch-userscript && npm run clean",
     "clean": "rimraf .userscripter-temp",
     "predeploy": "set USERSCRIPTER_MODE=production&& set USERSCRIPTER_VERBOSE=true&& npm run build",
     "deploy": "gh-pages -d dist"
